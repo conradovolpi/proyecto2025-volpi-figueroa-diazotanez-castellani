@@ -1,3 +1,5 @@
+package models
+
 type Actividad struct {
 	ActividadID   uint          `gorm:"primaryKey;autoIncrement"`
 	HorarioInicio string        `gorm:"size:20;not null"`
